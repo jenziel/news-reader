@@ -1,0 +1,18 @@
+.header-logo{
+    display: flex;
+    height: auto;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.header-image{
+    height: 4vh;
+    margin-right: .5vw;
+}
+.header-container {
+    background-color:lightgray;
+    margin:0;
+    padding: 0;
+}
