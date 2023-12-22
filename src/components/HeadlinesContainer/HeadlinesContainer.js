@@ -2,7 +2,10 @@ import React from "react";
 import {Link} from 'react-router-dom'
 import './HeadlinesContainer.css'
 
+
 function HeadlinesContainer({topHeadlines}) {
+    const dayjs = require('dayjs')
+    dayjs().format()
     const linkStyle = {
         color: "inherit",
         textDecoration: "none",
@@ -14,6 +17,22 @@ function HeadlinesContainer({topHeadlines}) {
       {topHeadlines
         .filter((headline) => headline.description !== "[Removed]")
         .map((headline) => {
+            const publishedDate = dayjs(headline.publishedAt);
+            const currentDate = dayjs();
+            const minutesSincePublished = currentDate.diff(publishedDate, "minute");
+            let timeAgo;
+          if (minutesSincePublished < 60) {
+            timeAgo = `${minutesSincePublished} minutes ago`;
+          } else if (minutesSincePublished < 1440) {
+            const hours = Math.floor(minutesSincePublished / 60);
+            const remainingMinutes = minutesSincePublished % 60;
+            timeAgo = `${hours} ${hours === 1 ? "hour" : "hours"} ${remainingMinutes} ${
+              remainingMinutes === 1 ? "minute" : "minutes"
+            } ago`}
+            else {
+                const days = Math.floor(minutesSincePublished / 1440);
+                timeAgo = `${days} ${days === 1 ? "day" : "days"} ago`;
+              }
           return (
               <Link to={headline.url} style={linkStyle}>
             <div className='article-preview-card' key={headline.publishedAt}>
@@ -23,6 +42,13 @@ function HeadlinesContainer({topHeadlines}) {
                     <img src={headline.urlToImage} className="headline-image"></img>
                 
                 }
+                {headline.description &&
+
+                <p className="headline-title-caption">{headline.description}</p>
+                }
+                <p className="minutes-since-published">
+                  {`Published ${timeAgo}`}
+                </p>
             </div>
               </Link>
           );

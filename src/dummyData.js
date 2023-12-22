@@ -3,7 +3,7 @@ export const dummyData = {
     {
       "author": "The Wall Street Journal",
       "content": "null",
-      "description": "null",
+      "description": null,
       "publishedAt": "2023-12-20T19:53:00Z",
       "source": {
         "id": "the-wall-street-journal",

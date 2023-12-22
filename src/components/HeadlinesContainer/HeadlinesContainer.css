@@ -3,7 +3,7 @@
     width: 80vw;
     background-color: white;
     border: solid 2px black;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 2rem;
     margin-bottom: 2vh;
     display: flex;
@@ -24,4 +24,11 @@
   .page-title{
     margin: 1rem;
 
+  }
+  .headline-title-caption{
+    font-style: italic;
+    font-size: 1.3rem;
+  }
+  .minutes-since-published{
+    margin-top: 1rem;
   }
