@@ -17,7 +17,7 @@ function App() {
 
     getTopHeadlines().then((data) => {
       console.log("data", data);
-      setTopHeadlines(data.articles)
+      setTopHeadlines(data.articles);
     });
   }, []);
   return (
@@ -30,11 +30,13 @@ function App() {
             <p>loading</p>
           ) : (
             <Routes>
-             
               <Route
                 path='/'
                 element={
-           <HeadlinesContainer topHeadlines={topHeadlines} setSearchResults={setSearchResults}/>
+                  <HeadlinesContainer
+                    topHeadlines={topHeadlines}
+                    setSearchResults={setSearchResults}
+                  />
                 }
               ></Route>
               <Route path='/loading' element={<Loading />}></Route>
