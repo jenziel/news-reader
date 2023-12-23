@@ -1,0 +1,36 @@
+.search-container{
+    background-color: white;
+    border: solid 2px black;
+    min-height: 100vh;
+    width: 55vw;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+  .search-input,
+  .search-btn{
+    height: 2rem;
+  }
+  .search-input{
+    width: 30vw;
+    padding-left: .5rem;
+  }
+  .search-btn-symbol {
+    transform: rotate(315deg);
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .search-submit-btn {
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--orangered);
+    border: none;
+    color: var(--black);
+    cursor:pointer;
+    background-color: lightskyblue;
+  }
+  .search-form{
+    display: flex;
+    align-items: center;
+  }

@@ -12,7 +12,7 @@ export function getTopHeadlines(){
    )
 }
 export function getSearchResults(query){
-    return fetch(`${BASEURLMOCK}/v2/everything?q=${query}&from=2023-11-22&sortBy=publishedAt&apiKey=${APIKEY}`).then(
+    return fetch(`${BASEURLPROD}/v2/everything?q=${query}&from=2023-11-23&sortBy=publishedAt&apiKey=${APIKEY}`).then(
      (response) => {
          if (!response.ok) {
            throw new Error(`Unable to access search results.`);

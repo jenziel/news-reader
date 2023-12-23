@@ -1,0 +1,26 @@
+.card {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .card-top,
+  .card-bottom {
+    display: flex;
+    flex-direction:row;
+  }
+  .card-left{
+
+    margin-bottom: 1rem;
+  }
+  .card-right{
+    margin-left: 1rem;
+    width: 20vw;
+  }
+  .search-result-img{
+    width: 100%;
+
+  }

@@ -1,6 +1,6 @@
 .article-preview-card{
     height: auto;
-    width: 80vw;
+    width: 30vw;
     background-color: white;
     border: solid 2px black;
     /* border-radius: 10px; */
@@ -13,13 +13,13 @@
   }
   .headline-image {
     height: auto;
-    width: 75vw;
+    width: 22vw;
   }
   .headline-title-preview {
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    width: 75vw;
+    width: 22vw;
   }
   .page-title{
     margin: 1rem;
@@ -31,4 +31,7 @@
   }
   .minutes-since-published{
     margin-top: 1rem;
+  }
+  .top-headlines-container{
+    width: 20vw;
   }
