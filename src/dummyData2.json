@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 36,
+  "articles": [
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Meredith Deliso",
+      "title": "FBI investigating after South Carolina couple accused of harassing Black neighbors - ABC News",
+      "description": "The FBI said it is investigating allegations of racial discrimination.",
+      "url": "https://abcnews.go.com/US/fbi-investigating-south-carolina-couple-accused-harassing-neighbors/story?id=105825286",
+      "urlToImage": "https://i.abcnewsfe.com/a/5b1d8900-43ff-445c-a120-b2f902dd2a92/worden-butler-alexis-hartnett-ht-jt-231220_1703114129561_hpMain_16x9.jpg?w=992",
+      "publishedAt": "2023-12-21T20:22:11Z",
+      "content": "Federal agents are investigating allegations of racial discrimination after a South Carolina couple was accused of harassing and stalking their Black neighbors.\r\nThe Federal Bureau of Investigation s… [+3130 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Drive a Honda or Acura? Over 2.5 million cars are under recall due to fuel pump defect - ABC News",
+      "description": "Honda Motor’s American arm is recalling more than 2.5 million vehicles in the U.S. due to a fuel pump defect that can increase risks of engine failure or stalling while driving",
+      "url": "https://abcnews.go.com/Business/wireStory/drive-honda-acura-25-million-cars-recall-due-105841508",
+      "urlToImage": "https://i.abcnewsfe.com/a/0604e0d1-21b1-4527-af9f-d445af867bb9/wirestory_023a5b51effebec1de86fbf3b944e7e3_16x9.jpg?w=992",
+      "publishedAt": "2023-12-21T20:22:07Z",
+      "content": "NEW YORK -- Honda Motor's American arm is recalling more than 2.5 million vehicles in the U.S. due to a fuel pump defect that can increase risks of engine failure or stalling while driving.\r\nAccordin… [+2169 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Katie Hunt",
+      "title": "Octopus DNA seems to confirm scientists’ theory about a long-standing geological mystery - CNN",
+      "description": "A study of octopus DNA may have solved an enduring mystery about when the rapidly melting West Antarctic ice sheet last collapsed, unlocking valuable information about how much future sea levels may rise in a warming climate.",
+      "url": "https://www.cnn.com/2023/12/21/world/octopus-dna-west-antarctic-ice-sheet-climate-scn/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/turquet-s-octopus-pareledone-turqueti-credit-louise-allcock.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-12-21T20:17:00Z",
+      "content": "Sign up for CNNs Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more.\r\nA study of octopus DNA may have solved an enduring mys… [+5939 chars]"
+    }
+  ]
+}
