@@ -12,8 +12,7 @@ function HeadlinesContainer({topHeadlines, setSearchResults}) {
        
       };
   return (
-    <div>
-        <SearchContainer setSearchResults={setSearchResults}/>
+    <div className="top-headlines-container">
       <h1 className='page-title'>Top Headlines:</h1>
       {topHeadlines
         .filter((headline) => headline.description !== "[Removed]")
@@ -35,8 +34,8 @@ function HeadlinesContainer({topHeadlines, setSearchResults}) {
                 timeAgo = `${days} ${days === 1 ? "day" : "days"} ago`;
               }
           return (
-              <Link to={headline.url} style={linkStyle}>
-            <div className='article-preview-card' key={headline.publishedAt}>
+              <Link to={`/article/${headline.id}`} style={linkStyle} key={`${headline.publishedAt}${Date.now()}`}>
+            <div className='article-preview-card' >
                 <p className="headline-title-preview">{headline.title}</p>
                 {headline.urlToImage && 
 
