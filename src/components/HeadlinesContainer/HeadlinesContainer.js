@@ -1,9 +1,9 @@
 import React from "react";
 import {Link} from 'react-router-dom'
 import './HeadlinesContainer.css'
+import SearchContainer from "../SearchContainer/SearchContainer";
 
-
-function HeadlinesContainer({topHeadlines}) {
+function HeadlinesContainer({topHeadlines, setSearchResults}) {
     const dayjs = require('dayjs')
     dayjs().format()
     const linkStyle = {
@@ -13,6 +13,7 @@ function HeadlinesContainer({topHeadlines}) {
       };
   return (
     <div>
+        <SearchContainer setSearchResults={setSearchResults}/>
       <h1 className='page-title'>Top Headlines:</h1>
       {topHeadlines
         .filter((headline) => headline.description !== "[Removed]")
