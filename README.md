@@ -54,13 +54,13 @@ This application aims to display real-time news articles around the world.
 - **Generating Unique IDs:**
   - Overcame challenges associated with a lack of unique ids to identify each article in the dataset.
   - Created basic ids for each object in the dataset before storing them to state.
-  - Began exploring the 3rd party library `uuid` to generate unique ids on the frontend, but ran out of time to implement it.  
+  - Began exploring the 3rd party library `uuid` to generate unique ids on the frontend, but ran out of time to implement it.
 
 
 ### Setup
 1. Clone down this repository:
   ```
-https://github.com/.....
+git clone git@github.com:jenziel/news-reader.git
   ```
 2. `cd` into `news-reader` directory and run:
   ```
