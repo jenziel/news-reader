@@ -28,7 +28,8 @@ This application displays real-time news articles from around the world.
 #### Design Inspiration: 
 ![nyt](https://github.com/jenziel/news-reader/assets/130857864/b07550be-607a-4b7b-94c3-6df969c579e5)  
 Referenced the two-column layout of the New York Times desktop application. 
-
+#### Basic Wireframe:
+![nytDiagram](https://github.com/jenziel/news-reader/assets/130857864/6e4aa05c-24da-4da2-a13a-bf24749e26db)
 
 
 ### Contributors
