@@ -21,12 +21,15 @@ function DetailedView({ searchResults, topHeadlines }) {
     <>
       {selectedArticle && (
         <div className='detailed-view-container' >
+          <div className='detailed-title-container'>
+
           <h2>{selectedArticle.title}</h2>
-          <p>by {selectedArticle.author}</p>
-          <img src={selectedArticle.urlToImage}></img>
+          <p className='detailed-author'>by {selectedArticle.author}</p>
+          </div>
+          <img src={selectedArticle.urlToImage} className='detailed-view-image'></img>
           <p>{selectedArticle.description}</p>
           <Link to={selectedArticle.url}>
-          <p>link to full article here</p>
+          <p className='detailed-link'>link to full article here</p>
           </Link>
         </div>
       )}
