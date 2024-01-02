@@ -6,7 +6,7 @@
 </div>
 
 ### Abstract
-This application displays real-time news articles around the world.
+This application displays real-time news articles from around the world.
 
 ### Key Features:
 - **Search Feature:** Users can search recent headlines by keyword.
