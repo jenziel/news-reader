@@ -1,3 +1,12 @@
 .detailed-view-container{
     padding: 1rem;
+    max-width: 60vw;
+}
+.detailed-view-image{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.detailed-link{
+    margin-top: 1rem;
 }
