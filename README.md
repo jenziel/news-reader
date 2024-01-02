@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# News Reader 
+#### (take-home challenge)
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+### Abstract
+This application aims to display real-time news articles around the world.
 
-### `npm start`
+### Key Features:
+- **Search Feature:** Users can search recent headlines by keyword.
+- **Top Headlines:** Users can stay informed on current events by browsing top headlines for a given day. 
+- **Detailed View:** Users can click on article previews to see an enlarged photo and a link to the full article.
+- 
+[Deployed Site](https://news-reader-infve7h6c-jenziel.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Preview
+#### Homepage
+![Screenshot 2024-01-02 at 3 47 29 PM](https://github.com/jenziel/news-reader/assets/130857864/a2a7b610-ad97-41f1-9936-5216348402c5)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Detailed View
+<img width="1439" alt="Screenshot 2024-01-02 at 4 24 17 PM" src="https://github.com/jenziel/news-reader/assets/130857864/afbec08b-fc74-4d14-be52-b081c6f51afe">
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Design Inspiration
+  New York Times 2-column UI
+![nyt](https://github.com/jenziel/news-reader/assets/130857864/b07550be-607a-4b7b-94c3-6df969c579e5)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contributors
+- [Jen Ziel](https://www.linkedin.com/in/jen-ziel-a02820278) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Tech Stack
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=!%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+</br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Achievements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Postman Mock Server Set-up:**
+  - Successfully set up a mock server to avoid reaching daily network request limits associated with the newsapi.org database.
+- **Working within Time Constraints:**
+  - Made careful decisions to reach MVP within the suggested timeframe of 8 hours.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Challenges
 
-## Learn More
+- **Generating Unique IDs:**
+  - Overcame challenges associated with a lack of unique ids to identify each article in the dataset.
+  - Created basic ids for each object in the dataset before storing them to state.
+  - Began exploring the 3rd party library `uuid` to generate unique ids on the frontend, but ran out of time to implement it.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Setup
+1. Clone down this repository:
+  ```
+https://github.com/.....
+  ```
+2. `cd` into `news-reader` directory and run:
+  ```
+  npm install
+  npm start
+  ```
+3. Enter the following url in your browser: http://localhost:3000/
